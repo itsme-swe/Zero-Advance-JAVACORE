@@ -5,7 +5,7 @@ public class LengthMethod {
 
         int length = carName.length();
 
-        System.out.println(length);
+        System.out.println(length);     //Output: 10
 
     }
 }
