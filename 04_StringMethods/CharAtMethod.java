@@ -3,8 +3,10 @@ public class CharAtMethod {
         
         String car = "Maruti Jimmny";
 
-        char c1 = car.charAt(5);
+        System.out.println(car.charAt(3));  //Output: u
 
-        System.out.println(c1);     // output: i
+        System.out.println(car.indexOf("J"));   // Output: indexOf() method returns the index value
+
+    // output: i
     }
 }
