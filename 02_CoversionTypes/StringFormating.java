@@ -7,21 +7,21 @@ public class StringFormating {
 
     public static void main(String[] args) {
 
-        Scanner s = new Scanner(System.in);
+        try (Scanner s = new Scanner(System.in)) {
+            System.out.println("Enter your age: ");
 
-        System.out.println("Enter your age: ");
+            int age = s.nextInt();
 
-        int age = s.nextInt();
+            s.nextLine();   // // Consumes the leftover newline character
 
-        s.nextLine();   // // Consumes the leftover newline character
+            System.out.println("Enter your full name: ");
+            String name = s.nextLine();
 
-        System.out.println("Enter your full name: ");
-        String name = s.nextLine();
+            System.out.println("Enter your weight: ");
+            float weight = s.nextFloat();
 
-        System.out.println("Enter your weight: ");
-        float weight = s.nextFloat();
-
-        System.out.printf("Hello My name is %s and I am %d years old. At the age of 32 my weight is %2.1f kg.", name, age, weight);
+            System.out.printf("Hello My name is %s and I am %d years old. At the age of 32 my weight is %2.1f kg.", name, age, weight);
+        }
 
 
     }
