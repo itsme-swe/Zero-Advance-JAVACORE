@@ -23,7 +23,7 @@ String is a non-primitive type. String is sequence of characters(Array of charac
 
 **🔸"==" operator** is used to compare the references/address of the object.
 
-**🔸equals( ) Method** is used to compare the content or value of string and "equals( )" method is method of object class in java.
+**🔸equals( ) Method** is used to compare the content or value of object of String class but equals(Object obj) method of Object class is used to compare references and "equals( )" method is method of Object class in java.
 
 **🔸There are total 11 methods inside the Object Class:**
 
@@ -49,4 +49,17 @@ String is a non-primitive type. String is sequence of characters(Array of charac
 
 **11. wait(long timeout, int nanos)**
 
+**🔸Some commonly used constructors inside String class:**
+
+**1. No argument constructor -- public String() { }**
+
+**2. public String(String s) {---}**
+
+**3. public String(StringBuffer sb) {---}**
+
+**4. public String(StringBuilder sb) {---}**
+
+**5. public String(char [] ch) {---}**
+
+**6. public String(byte[] b) {---}**
 
