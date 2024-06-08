@@ -1,5 +1,5 @@
 /**
- * Replace Method is used to replace the words from string 
+ * Replace Method is used to update the string 
  */
 public class ReplaceMethod {
 
