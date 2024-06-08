@@ -1,5 +1,5 @@
 /**
-    Length_method used to know the length of sequence of characters present inside String Buffer.
+    Length_method used to know the sequence of characters present inside String Buffer.
  */
 public class Length_method {
 
@@ -10,5 +10,7 @@ public class Length_method {
         sb.append("Sedan Virtus");
 
         System.out.println(sb.length());        //🔸Output: 12
+
+        
     }
 }
