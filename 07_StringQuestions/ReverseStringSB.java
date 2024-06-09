@@ -1,5 +1,5 @@
 /**
- * Reversing the below given string using "String Builder class"
+🔸Reversing the below given string using "String Builder class". The time and space complexity taken by string builder is O(n). So for reversing an string using String builder is better approach.
  */
 public class ReverseStringSB {
 
