@@ -60,10 +60,10 @@ class Rectangle
 }
 
 /*
-🔸output:
+🔸Output:
     Area 57.75
     Perimeter: 32.0
-    
+
     Length: 10.5
     Breadth: 5.5
 
