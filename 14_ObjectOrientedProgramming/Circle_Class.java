@@ -2,7 +2,7 @@
  ◽ Creating class for Circle
  */
 
-public class OOPs_Class {
+public class Circle_Class {
 
     public static void main(String[] args) {
         
