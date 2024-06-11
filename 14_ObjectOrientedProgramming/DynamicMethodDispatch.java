@@ -19,7 +19,8 @@ class Parent
 }
 
 class Child extends Parent
-{
+{   
+    @Override
     public void display()
     {
         System.out.println("We are child class");
