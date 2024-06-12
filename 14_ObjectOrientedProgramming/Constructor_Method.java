@@ -7,6 +7,8 @@ public class Constructor_Method {
         
         Rectangle r = new Rectangle(10,5);
 
+        System.out.println(r);
+
         
 
 
@@ -15,8 +17,8 @@ public class Constructor_Method {
 
 class Rectangle
 {
-    private double length;
-    private double breadth;
+     double length;
+     double breadth;
 
     //🔸Constructors
     public Rectangle()

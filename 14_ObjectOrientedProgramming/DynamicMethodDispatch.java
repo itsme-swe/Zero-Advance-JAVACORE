@@ -1,5 +1,5 @@
 /**
- * Dynamic Method Dispatch a super class reference holding the method of sub class.
+ * Dynamic Method Dispatch is a method where super class reference holding the method of sub class.
  */
 public class DynamicMethodDispatch {
 
