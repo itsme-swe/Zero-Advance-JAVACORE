@@ -1,5 +1,5 @@
 /**
- * Now we are not creating Thread Class but inherit properties and methods of Thread Class
+ ◽ Now we are not creating Thread Class but inherit properties and methods of Thread Class into main class
  */
 public class ThreadDemo extends Thread{
 
