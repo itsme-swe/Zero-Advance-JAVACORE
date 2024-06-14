@@ -1,7 +1,7 @@
 /**
  * DaemonThread
  */
-public class DaemonThread {
+public class DaemonThreadMethod {
 
     public static void main(String[] args) {
         

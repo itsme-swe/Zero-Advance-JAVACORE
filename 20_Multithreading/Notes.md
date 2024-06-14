@@ -7,7 +7,8 @@ Threads can be used to perform complicated tasks in the background without inter
 There are two ways to create a thread.
 
 🔸It can be created by extending the **Thread class** and overriding its **run() method:**
-
+    
+    
     public class Main extends Thread {
         public void run() {
           System.out.println("This code is running in a thread");
@@ -44,7 +45,8 @@ There are two ways to create a thread.
           Main obj = new Main();
 
           Thread thread = new Thread(obj);
-          
+
           thread.start();
           System.out.println("This code is outside of the thread");
         }
+
