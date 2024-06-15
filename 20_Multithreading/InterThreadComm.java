@@ -99,6 +99,7 @@ class Consumer extends Thread
 
 /*
  🔸 Output: 
+
     Consumer 1
     Producer 1
     Consumer 2
@@ -109,4 +110,5 @@ class Consumer extends Thread
     Consumer 4
     Producer 5
     Consumer 5
+    
  */
