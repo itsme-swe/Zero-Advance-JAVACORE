@@ -1,5 +1,5 @@
 /**
- * StaticBlock
+ * Static Block
  */
 public class StaticBlock {
 
