@@ -1,5 +1,5 @@
 /**
- * DaemonThread
+ * DaemonThread is a low-priority thread that runs in the background to perform tasks such as garbage collection or provide services to user threads.
  */
 public class DaemonThreadMethod {
 
