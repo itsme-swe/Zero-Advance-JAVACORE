@@ -70,3 +70,15 @@ class Customer extends Thread
         useATM();
     }
 }
+
+/*
+ ◽output: 
+    Harsh Checking 
+    Balance
+    Harsh withdrawing 
+    10000
+    Mukul Checking
+    Balance
+    Mukul withdrawing
+    12000
+ */
