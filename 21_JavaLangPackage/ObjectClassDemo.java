@@ -12,5 +12,7 @@ public class ObjectClassDemo {
         System.out.println(o1);     //🔸Output: java.lang.Object@5f71c76a -- Whenever we print any object it automatically call toString() method
 
         System.out.println(o1.equals(o2));      // 🔸Output: false 
+
+        
     }
 }
