@@ -1,7 +1,7 @@
 /**
  * MethaCharacter
  */
-public class MethaCharacter {
+public class MetaCharacter {
 
     public static void main(String[] args) {
         String str = "a";
